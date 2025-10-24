@@ -1,0 +1,17 @@
+# Ignoriere alles im Wurzelverzeichnis
+/*
+
+# Aber nicht den Enpal-FoxESS Ordner
+!/Enpal-FoxESS/
+
+# Und nicht die .gitignore-Datei selbst
+!.gitignore
+
+# Ignoriere typische Python-Dateien innerhalb des Enpal-FoxESS Ordners
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
